@@ -94,12 +94,12 @@ img {
 }
 
 .content-upper {
-    background-color: #E5E7EB;
+    background-color: #fefeff;
     padding-left: 200px;
 }
 
 .upper-top {
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
@@ -107,7 +107,7 @@ img {
 
 .upper-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 20px;
