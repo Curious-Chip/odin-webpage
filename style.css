@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
+    margin: 0;
 }
 
 .header {
@@ -38,8 +39,11 @@ li {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-top: 0;
+    margin-bottom: 0;
 }
+
+
+/*fix sign in button size */
 
 .signup-button {
     display: inline-block;
@@ -51,7 +55,8 @@ li {
     font-weight: 700;
     text-align: center;
     transition: backgorund-color 0.3s ease;
-    width: auto;
+    flex-grow: 0;
+    width: 70px;
 }
 
 .signup-button:hover {
@@ -67,10 +72,27 @@ li {
     display: flex;
 }
 
+/* fix alignment of header-body */
+
 .hb-left {
     display: flex;
     flex-direction: column;
     width: 500px;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+.hb-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+img {
+     margin: 10px
+}
+
+.content-upper {
+    background-color: #E5E7EB;
 }
